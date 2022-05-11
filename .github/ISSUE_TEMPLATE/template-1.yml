@@ -1,5 +1,9 @@
-name:  "\U0001F6E0️ 软件推荐"
-title: "【软件推荐】"
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
