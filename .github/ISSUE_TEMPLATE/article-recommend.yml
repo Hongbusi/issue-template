@@ -14,13 +14,13 @@ body:
       label: 功能描述
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: support-platform
     attributes:
       label: 支持平台
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: download-channel
     attributes:
       label: 下载渠道
