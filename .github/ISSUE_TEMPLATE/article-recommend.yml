@@ -1,5 +1,6 @@
 name:  "\U0001F6E0️ 软件推荐"
 title: "【软件推荐】"
+description: "developer-plus 周刊 - 软件推荐。"
 labels: ["bug", "triage"]
 assignees:
   - octocat
@@ -26,3 +27,9 @@ body:
       label: 下载渠道
     validations:
       required: true
+  - type: textarea
+    id: other
+    attributes:
+      label: 其他补充
+    validations:
+      required: false
