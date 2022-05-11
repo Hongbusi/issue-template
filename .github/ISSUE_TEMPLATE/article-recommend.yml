@@ -1,5 +1,8 @@
 name:  \U0001F6E0️ 软件推荐
+description: 这是一个描述。
 title: "【软件推荐】"
+labels: []
+assignees:
 body:
   - type: markdown
     attributes:
