@@ -1,0 +1,25 @@
+name:  \U0001F6E0️ 软件推荐
+title: "【软件推荐】"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您抽出时间投稿 developer-plus 周刊！
+  - type: textarea
+    id: function-description
+    attributes:
+      label: 功能描述
+    validations:
+      required: true
+  - type: input
+    id: support-platform
+    attributes:
+      label: 支持平台
+    validations:
+      required: true
+  - type: input
+    id: download-channel
+    attributes:
+      label: 下载渠道
+    validations:
+      required: true
