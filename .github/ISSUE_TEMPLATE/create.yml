@@ -1,5 +1,5 @@
 name:  "\U+1F331 新建"
-title: ""
+title: "【TODO】"
 description: "新建待办事项。"
 body:
   - type: markdown
@@ -25,7 +25,7 @@ body:
       label: 截止日期
       placeholder: YYYY-MM-DD
     validations:
-      required: true
+      required: false
   - type: textarea
     id: other
     attributes:
