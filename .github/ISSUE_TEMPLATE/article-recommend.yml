@@ -15,16 +15,18 @@ body:
       label: 功能描述
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: support-platform
     attributes:
       label: 支持平台
+      placeholder: ex. Mac/Windows/Linux/...
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: download-channel
     attributes:
       label: 下载渠道
+      placeholder: ex. https://baidu.com
     validations:
       required: true
   - type: textarea
