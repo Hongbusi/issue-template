@@ -1,6 +1,6 @@
-name: Bug Report
+name:  "\U0001F6E0️ 软件推荐"
 description: File a bug report
-title: "[Bug]: "
+title: "【软件推荐】"
 labels: ["bug", "triage"]
 assignees:
   - octocat
