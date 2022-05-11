@@ -23,7 +23,7 @@ body:
     id: download-channel
     attributes:
       label: 下载渠道
-      placeholder: ex. https://baidu.com
+      placeholder: ex. https://example.com
     validations:
       required: true
   - type: textarea
