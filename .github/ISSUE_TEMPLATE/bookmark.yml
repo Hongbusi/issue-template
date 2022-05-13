@@ -1,0 +1,39 @@
+name:  "🔖 新增书签"
+title: "【Bookmark】"
+description: "新建书签。"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您抽出时间为 developer-plus 做贡献！
+  - type: input
+    id: title
+    attributes:
+      label: 标题
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: 描述
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub 仓库链接
+      placeholder: https://github.com/developer-plus
+    validations:
+      required: true
+  - type: input
+    id: chinese-link
+    attributes:
+      label: 中文文档链接
+    validations:
+      required: false
+- type: input
+    id: english-link
+    attributes:
+      label: 英文文档链接
+    validations:
+      required: false
