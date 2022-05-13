@@ -1,4 +1,4 @@
-name: "新增书签"
+name: "🔖 新增书签"
 title: "【Bookmark】"
 description: "新建书签。"
 body:
@@ -31,7 +31,7 @@ body:
       label: 中文文档链接
     validations:
       required: false
-- type: input
+  - type: input
     id: english-link
     attributes:
       label: 英文文档链接
