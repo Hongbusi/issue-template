@@ -13,6 +13,12 @@ body:
     validations:
       required: true
   - type: input
+    id: logo
+    attributes:
+      label: logo 链接
+    validations:
+      required: false
+  - type: input
     id: description
     attributes:
       label: 描述
