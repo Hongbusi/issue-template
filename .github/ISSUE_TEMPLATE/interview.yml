@@ -7,6 +7,7 @@ body:
       value: |
         感谢您抽出时间为 developer-plus 做贡献！
   - type: markdown
+    id: description
     attributes:
       label: 请填写详细答案
     validations:
