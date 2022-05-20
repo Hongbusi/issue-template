@@ -4,11 +4,10 @@ description: "感谢您抽出时间为 developer-plus 做贡献！"
 body:
   - type: markdown
     attributes:
-      value: |
-        感谢您抽出时间为 developer-plus 做贡献！
+      value: 感谢您抽出时间为 developer-plus 做贡献！
+      preview_only: false
   - type: textarea
-    id: description
     attributes:
-      placeholder: 请填写详细答案
+      value: 请填写详细答案
     validations:
       required: true
