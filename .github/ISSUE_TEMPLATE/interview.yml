@@ -6,9 +6,9 @@ body:
     attributes:
       value: |
         感谢您抽出时间为 developer-plus 做贡献！
+      preview_only: false
   - type: markdown
-    id: description
     attributes:
-      value: "请填写详细答案"
+      label: "请填写详细答案"
     validations:
       required: true
