@@ -1,0 +1,14 @@
+name:  "\U0001F331 新建面试题"
+title: "题目"
+description: "新建面试题。"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您抽出时间为 developer-plus 做贡献！
+  - type: textarea
+    id: description
+    attributes:
+      label: 请填写详细答案
+    validations:
+      required: true
