@@ -4,7 +4,8 @@ description: "感谢您抽出时间为 developer-plus 做贡献！"
 body:
   - type: markdown
     attributes:
-      value: "感谢您抽出时间为 developer-plus 做贡献！"
+      value: |
+        感谢您抽出时间为 developer-plus 做贡献！
   - type: markdown
     attributes:
       value: "请填写详细答案"
