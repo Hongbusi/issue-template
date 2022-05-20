@@ -1,6 +1,6 @@
-name:  "\U0001F331 新建面试题"
+name:  "\U0001F331 面试题投稿"
 title: "题目"
-description: "新建面试题。"
+description: "感谢您抽出时间为 developer-plus 做贡献！"
 body:
   - type: markdown
     attributes:
@@ -9,6 +9,6 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: 请填写详细答案
+      placeholder: 请填写详细答案
     validations:
       required: true
